@@ -1,7 +1,7 @@
-import express from "express";
+import { Router } from "express";
 import { auth, db } from "../firebase";
 
-const userController = express();
+const userController = Router({ mergeParams: true });
 userController.post("/", async (req, res) => {
   try {
     const user = req.body;

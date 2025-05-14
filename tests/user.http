@@ -7,7 +7,7 @@ content-type: application/json
 
 ###
 
-POST https://class-manager-backend-tau.vercel.app/api/index
+POST https://class-manager-backend-tau.vercel.app/api/index/users
 content-type: application/json
 
 {
