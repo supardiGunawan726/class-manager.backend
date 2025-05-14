@@ -1,8 +1,1 @@
-{
-  "version": 2,
-  "functions": {
-    "dist/index.js": {
-      "memory": 1024
-    }
-  }
-}
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
