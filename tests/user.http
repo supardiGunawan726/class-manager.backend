@@ -4,3 +4,12 @@ content-type: application/json
 {
   "test": "test"
 }
+
+###
+
+POST https://class-manager-backend-tau.vercel.app/users
+content-type: application/json
+
+{
+  "test": "test"
+}
